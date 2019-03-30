@@ -103,7 +103,7 @@ p {
 .bottom-right {
   position: absolute;
   bottom: 8px;
-  right: 16px;
+  right: 100px;
 }
 
 img {

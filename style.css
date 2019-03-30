@@ -100,12 +100,6 @@ p {
   color: #331a00;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 300px;
-}
-
 img {
     border-radius: 10%;
     box-shadow: 5px 5px 5px;

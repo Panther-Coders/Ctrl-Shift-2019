@@ -100,11 +100,6 @@ p {
   text-align: center;
   color: #331a00;
 }
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 100px;
-}
 
 img {
     border-radius: 10%;

@@ -4,32 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Page 2 Panther Coders</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-$(function() {
-
-    var $sidebar   = $("#mySidenav"), 
-        $window    = $(window),
-        offset     = $sidebar.offset(),
-        topPadding = 15;
-
-    $window.scroll(function() {
-        if ($window.scrollTop() > offset.top) {
-            $sidebar.stop().animate({
-                marginTop: $window.scrollTop() - offset.top + topPadding
-            });
-        } else {
-            $sidebar.stop().animate({
-                marginTop: 0
-            });
-        }
-    });
-    
-});
-</script>
 </head>
 <body>
-  <nav>
   <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul class="hello">
@@ -50,7 +26,6 @@ $(function() {
     <li><a href="AboutUs.html">About Us</a></li>
     </ul>
     </div>
-  </nav>
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 <script>

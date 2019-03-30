@@ -92,13 +92,18 @@ p {
 #cpbb {
   width:400px;
   height:200px;
-  
 }
 
 .container {
   position: relative;
   text-align: center;
   color: #331a00;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 300px;
 }
 
 img {

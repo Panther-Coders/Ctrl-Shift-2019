@@ -94,19 +94,9 @@ p {
   height:200px;
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: #331a00;
-}
-
 img {
     border-radius: 10%;
     box-shadow: 5px 5px 5px;
     color: #331a00;
-}
-
-div.container {
-  font-size: 18.5px;
 }
 

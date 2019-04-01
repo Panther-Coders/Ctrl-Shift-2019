@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>About Us</title>
 </head>
 <style>
-* {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-  
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  * {
+    box-sizing: border-box;
   }
-  
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 430px;
-}
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 430px;
+  }
 </style>
+
 <body>
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul class="hello">
-     <li><a href="index.html">Home Page</a></li>
-    
-    <li><a href="page2.html">Food Bank of Delaware</a></li>
+      <li><a href="index.html">Home Page</a></li>
 
-    <li><a href="page3.html">SPCA</a></li>
+      <li><a href="page2.html">Food Bank of Delaware</a></li>
 
-    <li><a href="page4.html">Blood Bank of Delaware</a></li>
+      <li><a href="page3.html">SPCA</a></li>
 
-    <li><a href="page5.html">Locks of Love</a></li>
+      <li><a href="page4.html">Blood Bank of Delaware</a></li>
 
-    <li><a href="page6.html">One Laptop Per Child</a></li>
-    
-    <li><a href="page7.html">The Outreach Program for Soccer</a></li>
+      <li><a href="page5.html">Locks of Love</a></li>
 
-    <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="page6.html">One Laptop Per Child</a></li>
+
+      <li><a href="page7.html">The Outreach Program for Soccer</a></li>
+
+      <li><a href="AboutUs.html">About Us</a></li>
     </ul>
-</div>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
 
   <br>
-  <center><h1>About Us</h1>
-  <img src="koolkids.jpg" style="width:400px;height:300px;"></center>
-  <center><h2>We are the Panther Coders!</h2></center>
-  <p>As eighth grade students, this competition posed as a wonderful opportunity to use what we are learning about code to create our own unique website! We all love to help out our community, but cannot do much as kids. This website allows us to bring attention to important organizations near you. Throughout ths project, everyone on our team contributed greatly and sacrificed time, so we could do something that we all love: code! Most of us became friends through this competition, and we combined our strengths to form a great team!
+  <center>
+    <h1>About Us</h1>
+    <img src="koolkids.jpg" style="width:400px;height:300px;"></center>
+  <center>
+    <h2>We are the Panther Coders!</h2>
+  </center>
+  <p>As eighth grade students, this competition posed as a wonderful opportunity to use what we are learning about code to create our own unique website! We all love to help out our community, but cannot do much as kids. This website allows us to bring attention
+    to important organizations near you. Throughout ths project, everyone on our team contributed greatly and sacrificed time, so we could do something that we all love: code! Most of us became friends through this competition, and we combined our strengths
+    to form a great team!
   </p>
   <div class="row">
-  <div class="column">
-    <p><img src="https://pbs.twimg.com/profile_images/441357025172148224/QPD8GEtF_400x400.png" style="width: 200px; height: 200px;"></p>
+    <div class="column">
+      <p><img src="https://pbs.twimg.com/profile_images/441357025172148224/QPD8GEtF_400x400.png" style="width: 200px; height: 200px;"></p>
+    </div>
+    <div class="column">
+      <p>See more here about us and our great school. Visit our <a href="https://www.brandywineschools.org/psdupont">School's Page!</a></p>
+    </div>
   </div>
-  <div class="column">
-     <p>See more here about us and our great school. Visit our <a href="https://www.brandywineschools.org/psdupont">School's Page!</a></p>
-  </div>
-</div>
 
 </body>
+
 </html>

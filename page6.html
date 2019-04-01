@@ -1,81 +1,88 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Page 7 Panther Coders</title>
 </head>
 <style>
-* {
-  box-sizing: border-box;
-}
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-  
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  * {
+    box-sizing: border-box;
   }
-  
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 430px;
-}
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 430px;
+  }
 </style>
+
 <body>
   <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <ul class="hello">
-  <li><a href="index.html">Home Page</a></li>
-    
-    <li><a href="page2.html">Food Bank of Delaware</a></li>
+      <li><a href="index.html">Home Page</a></li>
 
-    <li><a href="page3.html">SPCA</a></li>
+      <li><a href="page2.html">Food Bank of Delaware</a></li>
 
-    <li><a href="page4.html">Blood Bank of Delaware</a></li>
+      <li><a href="page3.html">SPCA</a></li>
 
-    <li><a href="page5.html">Locks of Love</a></li>
+      <li><a href="page4.html">Blood Bank of Delaware</a></li>
 
-    <li><a href="page6.html">One Laptop Per Child</a></li>
-    
-    <li><a href="page7.html">The Outreach Program for Soccer</a></li>
+      <li><a href="page5.html">Locks of Love</a></li>
 
-    <li><a href="AboutUs.html">About Us</a></li>
+      <li><a href="page6.html">One Laptop Per Child</a></li>
+
+      <li><a href="page7.html">The Outreach Program for Soccer</a></li>
+
+      <li><a href="AboutUs.html">About Us</a></li>
     </ul>
-</div>
+  </div>
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-  
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
   <br>
   <h1>One Laptop Per Child (OLPC) Organization</h1>
   <center><a href="http://one.laptop.org/"><img src="http://oneday.wpengine.netdna-cdn.com/wp-content/uploads/one-laptop-per-child-logo.gif" alt="Onelaptopperchild" style="width:300px;height:250px"></a></center>
   <br>
-  <p>OLPC's mission is to empower the poorest children in the world to succeed through education. They work all around the world in countries like, Madagascar, Kenya, India, Peru, and many more. OLPC has teams who analyze the economic and social state of the communities they work in to create a personalized program to fit the needs of the children in the area. However, their main focusses are program design implementation and logistics, teacher training, maintenance and technical support, monitoring and evaluation, volunteer program, community support and development</p>
+  <p>OLPC's mission is to empower the poorest children in the world to succeed through education. They work all around the world in countries like, Madagascar, Kenya, India, Peru, and many more. OLPC has teams who analyze the economic and social state of
+    the communities they work in to create a personalized program to fit the needs of the children in the area. However, their main focusses are program design implementation and logistics, teacher training, maintenance and technical support, monitoring
+    and evaluation, volunteer program, community support and development</p>
   <br>
- 
+
   <div class="row">
-  <div class="column">
-    <p><center><img src="http://one.laptop.org/sites/default/files/miami.jpg" style="width:350px;height:250px;"></center></p>
+    <div class="column">
+      <p>
+        <center><img src="http://one.laptop.org/sites/default/files/miami.jpg" style="width:350px;height:250px;"></center>
+      </p>
+    </div>
+    <div class="column">
+      <p>For more information on this organization visit the <a href="http://one.laptop.org/">one laptop per child website</a>.<br>To donate, please visit <a href="http://one.laptop.org/content/donate-online">this page</a>.</p>
+    </div>
   </div>
-  <div class="column">
-     <p>For more information on this organization visit the <a href="http://one.laptop.org/">one laptop per child website</a>.<br>To donate, please visit <a href="http://one.laptop.org/content/donate-online">this page</a>.</p>
-  </div>
-</div>
 
 </body>
 
